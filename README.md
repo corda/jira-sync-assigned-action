@@ -1,4 +1,4 @@
-# git-jira-assign-action
+# jira-sync-assigned-action
 
 This is a github action step implementation to synchronize assigners in jira and github, written in js.
 

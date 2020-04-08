@@ -1,7 +1,43 @@
 // jira <-> github mapping
 
 const assigneeMapping = {
-    '5e0f0b597a22c90da0c5c1e1': 'dgounaris'
+    '5e0f0b597a22c90da0c5c1e1': 'dgounaris',
+    '5c879957ad506d3ec2635f0b': 'adelel1',
+    '557058:203820b0-0a5b-4fa7-a1ba-a1c357ad7111': 'CaisManai',
+    '557058:a941969d-c883-432c-9e86-5e8488532888': 'chrisr3',
+    '557058:3bfbf47a-478e-4876-9d2b-ab84bc646e23': 'blsemo',
+    '5c9215438c3aae2d15115ef8': 'lankydan',
+    '5ced2bdc1552030f1e3a3da6': 'rekalov',
+    '5bf5732ddae7af0fb5eb05e2': 'dimosr',
+    '5b2bcb81088822535509193a': 'r3domfox',
+    '5cb5ffa4b82ee0118714dd8f': 'edward-prosser',
+    '5b04218d27dd77348bacbe09': 'florian-f',
+    '5a02f273f491f53c4fcbb524': 'jamesbr3',
+    '5bf5732f57a1944b8575b990': 'JamesHR3',
+    '557058:3f176e37-d51c-4f7d-80b5-caf82f07a064': 'joeldudleyr3',
+    '5c506be469dc034ed80b719c': 'lockathan',
+    '557058:0fc4ccee-d19a-407b-ab55-53fde03ad3e0': 'josecoll',
+    '5e3c3ad2e367ae0c91af9ce3': 'josephzunigadaly',
+    '557058:8e44f24a-dde4-4e76-9e44-d95f5000a2f7': 'kasiastreich',
+    '557058:4cec8a45-ccdd-4585-9a45-fd0e5c2f17b3': 'fenryka',
+    '5d7783e0b2698f0da457b705': 'kyriathar',
+    '557058:6fab0e06-9ae5-4b0e-b191-0897302ad72f': 'mnesbit',
+    '557058:03e9b5bc-6ba5-4cb2-9d72-941feecd76e9': 'mikehearn',
+    '557058:7f1b98b0-cec1-4c56-bb19-ed37fa52cee7': 'tooward',
+    '5bc74fdfdb65bf09e6841e3f': 'rogersanick',
+    '5e550a20691b8a0c95c3c0ee': 'nikinagi',
+    '5b73f2950fd0ac05d38a020f': 'oknowles',
+    '5daf242828925b0d978afdc5': 'relyafi',
+    '557058:54c63828-8e47-4533-a7ac-44a44fa77c02': 'rick-r3',
+    '557058:d6d4517e-f2a4-425b-97e0-922c79c4ddb8': 'roger3cev',
+    '557058:b67f73f3-f9ae-4823-b5d1-d6af8180564b': 'rnicoll',
+    '5cc2db84fdcd39100fdac281': 'fowlerrr',
+    '557058:075a0cb2-dde7-467f-a7df-dd481ac8de4b': 'shamsasari',
+    '5c921c12fbf7532d14b51613': 'StefanIliev545',
+    '5a201ef91594706402deca6c': 'roastario',
+    '59fc68db1c0767667b2cfbdf': 'thschroeter',
+    '5a02f29e87c3eb1913c45b85': 'tudor-malene',
+    '5de137af7474110e2311af92': 'williamvigorr3'
 }
 
 module.exports = assigneeMapping;

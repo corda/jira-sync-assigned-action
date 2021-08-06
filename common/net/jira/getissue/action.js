@@ -15,9 +15,14 @@ class JiraGetIssueAction {
       }
     }
 
-    const response = await axios.get(`${this.baseUrl}/rest/api/3/issue/${this.issue}`, config);
-    console.log(`Got for ${this.issue}: ${response.status}`)
-    return response.data;
+    try {
+      const response = await axios.get(`${this.baseUrl}/rest/api/3/issue/${this.issue}`, config);
+      console.log(`Got for ${this.issue}: ${response.status}`)
+      return response.data;
+    } catch (error) {
+      console.log(`Got an error while getting ${this.issue}: ${error.message}`)
+      return null
+    }
   }
 }
 

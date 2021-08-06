@@ -37,7 +37,8 @@ const assigneeMapping = {
     '5a201ef91594706402deca6c': 'roastario',
     '59fc68db1c0767667b2cfbdf': 'thschroeter',
     '5a02f29e87c3eb1913c45b85': 'tudor-malene',
-    '5de137af7474110e2311af92': 'williamvigorr3'
+    '5de137af7474110e2311af92': 'williamvigorr3',
+    '5beb009f7f6a203d276ed558': 'wzur-r3'
 }
 
 module.exports = assigneeMapping;

@@ -14,9 +14,9 @@ class GetAllIssuesAction {
             }
         }
         const response = await axios.get(`https://api.github.com/repos/${this.owner}/${this.repo}/issues`, config);
-        console.log('Full response:\n');
-        console.log(response)
-        console.log('\n')
+        // console.log('Full response:\n');
+        // console.log(response)
+        // console.log('\n')
         return response;
     }
 }

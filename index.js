@@ -44,7 +44,7 @@ async function getSanitizedRepo(rawRepo) {
 
 async function operateForIssue(owner, repo, issue, existingAssignees, token, jiraBaseUrl, jiraToken) {
     const issueFirstComment = await new GetFirstIssueCommentAction(owner, repo, issue, token).execute();
-    console.log('First commit message: ' + issueFirstComment);
+    // console.log('First commit message: ' + issueFirstComment);
 
     if (!(/^Automatically created Jira issue: [A-Z]+-\d+/.test(issueFirstComment))) {
         return;
@@ -58,10 +58,10 @@ async function operateForIssue(owner, repo, issue, existingAssignees, token, jir
         const githubAssignee = assigneeMapping[jiraIssueAssignee];
         console.log(`Assignee for issue ${issue} is ${githubAssignee}`);
         await new UnassignIssueAction(
-            owner, 
-            repo, 
-            issue, 
-            existingAssignees.filter(assignee => assignee != githubAssignee), 
+            owner,
+            repo,
+            issue,
+            existingAssignees.filter(assignee => assignee != githubAssignee),
             token
         ).execute();
         await new AssignIssueAction(owner, repo, issue, githubAssignee, token).execute();
